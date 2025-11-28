@@ -13,16 +13,9 @@ jobs:
 
       # 第二步：核心步骤 - 使用 curl 命令直接发送 Markdown 消息
       - name: 发送 Markdown 消息到企业微信
+        if: ${{ secrets.WECHAT_QIYE_WEBHOOK_KEY != '' }}
         run: |
-          curl -s -H "Content-Type: application/json" \
+          curl -s -v -H "Content-Type: application/json" \
           -X POST \
-          -d '{
-            "msgtype": "markdown",
-            "markdown": {
-              "content": "**SummerCake Git GUI 有新的代码提交！**\n\n---\n> **变动仓库：** <font color=\"info\">${{ github.repository }}</font>\n> **提交者：** <font color=\"comment\">${{ github.actor }}</font>\n> **变动分支：** `${{ github.ref_name }}`\n> **相关提交信息：** \n> ${{ github.event.head_commit.message }}\n\n[📱 点击这里可以查看提交详情](${{ github.event.head_commit.url }})",
-              "mentioned_list": [
-                "@all"
-              ]
-            }
-          }' \
-          "${{ secrets.WECHAT_QIYE_WEBHOOK_KEY }}"
+          -d '{"msgtype":"markdown","markdown":{"content":"**SummerCake Git GUI 有新的代码提交！**\n\n---\n> **变动仓库：** <font color=\"info\">${{ github.repository }}</font>\n> **提交者：** <font color=\"comment\">${{ github.actor }}</font>\n> **变动分支：** `${{ github.ref_name }}`\n> **相关提交信息：** \n> ${{ github.event.head_commit.message }}\n\n[📱 点击这里可以查看提交详情](${{ github.event.head_commit.url }})","mentioned_list":["@all"]}}' \
+          "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=${{ secrets.WECHAT_QIYE_WEBHOOK_KEY }}"
