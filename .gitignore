@@ -1,0 +1,66 @@
+# 构建目录
+build/
+build-*/
+
+# CMake生成的文件
+CMakeCache.txt
+CMakeFiles/
+Makefile
+*.cmake
+*.sln
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+
+# Qt生成的文件
+*.moc
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+*.qm
+
+# 可执行文件
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Qt Creator配置文件
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+
+# 编辑器配置文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统生成的文件
+Thumbs.db
+.DS_Store
+
+# 日志文件
+*.log
+
+# 测试覆盖率文件
+*.gcno
+*.gcda
+*.gcov
+
+# 临时文件
+*.tmp
+*.temp
+
+# 依赖管理文件
+node_modules/
+.virtualenv/
+venv/
+
+# 部署文件
+windeployqt/
+
+# 翻译文件生成的二进制文件
+*.qm

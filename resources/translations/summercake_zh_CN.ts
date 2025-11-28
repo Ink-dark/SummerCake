@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="zh_CN">
+<context>
+    <name>MainWindow</name>
+    <message>
+        <source>SummerCake - Git GUI</source>
+        <translation>SummerCake - Git图形界面</translation>
+    </message>
+    <message>
+        <source>文件</source>
+        <translation>文件</translation>
+    </message>
+    <message>
+        <source>编辑</source>
+        <translation>编辑</translation>
+    </message>
+    <message>
+        <source>仓库</source>
+        <translation>仓库</translation>
+    </message>
+    <message>
+        <source>分支</source>
+        <translation>分支</translation>
+    </message>
+    <message>
+        <source>远程</source>
+        <translation>远程</translation>
+    </message>
+    <message>
+        <source>AI助手</source>
+        <translation>AI助手</translation>
+    </message>
+    <message>
+        <source>帮助</source>
+        <translation>帮助</translation>
+    </message>
+    <message>
+        <source>打开仓库</source>
+        <translation>打开仓库</translation>
+    </message>
+    <message>
+        <source>克隆仓库</source>
+        <translation>克隆仓库</translation>
+    </message>
+    <message>
+        <source>初始化仓库</source>
+        <translation>初始化仓库</translation>
+    </message>
+    <message>
+        <source>提交</source>
+        <translation>提交</translation>
+    </message>
+    <message>
+        <source>推送</source>
+        <translation>推送</translation>
+    </message>
+    <message>
+        <source>拉取</source>
+        <translation>拉取</translation>
+    </message>
+    <message>
+        <source>设置</source>
+        <translation>设置</translation>
+    </message>
+    <message>
+        <source>AI配置</source>
+        <translation>AI配置</translation>
+    </message>
+    <message>
+        <source>关于</source>
+        <translation>关于</translation>
+    </message>
+    <message>
+        <source>暂存文件</source>
+        <translation>暂存文件</translation>
+    </message>
+    <message>
+        <source>取消暂存</source>
+        <translation>取消暂存</translation>
+    </message>
+    <message>
+        <source>丢弃修改</source>
+        <translation>丢弃修改</translation>
+    </message>
+    <message>
+        <source>查看差异</source>
+        <translation>查看差异</translation>
+    </message>
+    <message>
+        <source>AI助手悬浮窗</source>
+        <translation>AI助手悬浮窗</translation>
+    </message>
+    <message>
+        <source>分支: 未打开仓库</source>
+        <translation>分支: 未打开仓库</translation>
+    </message>
+    <message>
+        <source>状态: 未打开仓库</source>
+        <translation>状态: 未打开仓库</translation>
+    </message>
+    <message>
+        <source>AI: </source>
+        <translation>AI: </translation>
+    </message>
+    <message>
+        <source>已启用</source>
+        <translation>已启用</translation>
+    </message>
+    <message>
+        <source>已禁用</source>
+        <translation>已禁用</translation>
+    </message>
+    <message>
+        <source> (隐私模式)</source>
+        <translation> (隐私模式)</translation>
+    </message>
+    <message>
+        <source>分支: </source>
+        <translation>分支: </translation>
+    </message>
+    <message>
+        <source>状态: </source>
+        <translation>状态: </translation>
+    </message>
+    <message>
+        <source>已打开仓库</source>
+        <translation>已打开仓库</translation>
+    </message>
+    <message>
+        <source>成功打开仓库: </source>
+        <translation>成功打开仓库: </translation>
+    </message>
+    <message>
+        <source>Git错误</source>
+        <translation>Git错误</translation>
+    </message>
+    <message>
+        <source>AI错误</source>
+        <translation>AI错误</translation>
+    </message>
+    <message>
+        <source>操作成功</source>
+        <translation>操作成功</translation>
+    </message>
+    <message>
+        <source>文件已暂存</source>
+        <translation>文件已暂存</translation>
+    </message>
+    <message>
+        <source>文件已取消暂存</source>
+        <translation>文件已取消暂存</translation>
+    </message>
+    <message>
+        <source>确认丢弃</source>
+        <translation>确认丢弃</translation>
+    </message>
+    <message>
+        <source>确定要丢弃对文件 \"%1\" 的修改吗？此操作不可恢复。</source>
+        <translation>确定要丢弃对文件 \"%1\" 的修改吗？此操作不可恢复。</translation>
+    </message>
+    <message>
+        <source>修改已丢弃</source>
+        <translation>修改已丢弃</translation>
+    </message>
+    <message>
+        <source>没有差异</source>
+        <translation>没有差异</translation>
+    </message>
+    <message>
+        <source>提交成功</source>
+        <source>提交已完成</source>
+        <translation>提交已完成</translation>
+    </message>
+    <message>
+        <source>推送成功</source>
+        <translation>推送成功</translation>
+    </message>
+    <message>
+        <source>推送已完成</source>
+        <translation>推送已完成</translation>
+    </message>
+    <message>
+        <source>拉取成功</source>
+        <translation>拉取成功</translation>
+    </message>
+    <message>
+        <source>拉取已完成</source>
+        <translation>拉取已完成</translation>
+    </message>
+    <message>
+        <source>关于SummerCake</source>
+        <translation>关于SummerCake</translation>
+    </message>
+    <message>
+        <source>SummerCake Git GUI\n版本: 0.1.0\n基于Qt 6.10.0开发\n\n一个简单易用的Git GUI客户端，集成AI助手功能。</source>
+        <translation>SummerCake Git图形界面\n版本: 0.1.0\n基于Qt 6.10.0开发\n\n一个简单易用的Git图形界面客户端，集成AI助手功能。</translation>
+    </message>
+    <message>
+        <source>设置功能开发中</source>
+        <translation>设置功能开发中</translation>
+    </message>
+</context>
+<context>
+    <name>AIFloatWidget</name>
+    <message>
+        <source>AI助手</source>
+        <translation>AI助手</translation>
+    </message>
+    <message>
+        <source>AI助手响应将显示在这里...</source>
+        <translation>AI助手响应将显示在这里...</translation>
+    </message>
+    <message>
+        <source>输入您的问题...</source>
+        <translation>输入您的问题...</translation>
+    </message>
+    <message>
+        <source>发送</source>
+        <translation>发送</translation>
+    </message>
+    <message>
+        <source>关闭</source>
+        <translation>关闭</translation>
+    </message>
+    <message>
+        <source>用户: </source>
+        <translation>用户: </translation>
+    </message>
+    <message>
+        <source>AI: 思考中...</source>
+        <translation>AI: 思考中...</translation>
+    </message>
+    <message>
+        <source>AI: </source>
+        <translation>AI: </translation>
+    </message>
+    <message>
+        <source>AI错误: </source>
+        <translation>AI错误: </translation>
+    </message>
+</context>
+<context>
+    <name>AISettingDialog</name>
+    <message>
+        <source>AI设置</source>
+        <translation>AI设置</translation>
+    </message>
+    <message>
+        <source>通用设置</source>
+        <translation>通用设置</translation>
+    </message>
+    <message>
+        <source>启用AI功能</source>
+        <translation>启用AI功能</translation>
+    </message>
+    <message>
+        <source>隐私模式（仅使用本地模型）</source>
+        <translation>隐私模式（仅使用本地模型）</translation>
+    </message>
+    <message>
+        <source>AI服务提供商:</source>
+        <translation>AI服务提供商:</translation>
+    </message>
+    <message>
+        <source>提供商设置</source>
+        <translation>提供商设置</translation>
+    </message>
+    <message>
+        <source>测试连接</source>
+        <translation>测试连接</translation>
+    </message>
+    <message>
+        <source>重置</source>
+        <translation>重置</translation>
+    </message>
+    <message>
+        <source>取消</source>
+        <translation>取消</translation>
+    </message>
+    <message>
+        <source>保存</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>API密钥:</source>
+        <translation>API密钥:</translation>
+    </message>
+    <message>
+        <source>模型:</source>
+        <translation>模型:</translation>
+    </message>
+    <message>
+        <source>温度:</source>
+        <translation>温度:</translation>
+    </message>
+    <message>
+        <source>最大令牌数:</source>
+        <translation>最大令牌数:</translation>
+    </message>
+    <message>
+        <source>保存成功</source>
+        <translation>保存成功</translation>
+    </message>
+    <message>
+        <source>AI设置已保存</source>
+        <translation>AI设置已保存</translation>
+    </message>
+    <message>
+        <source>连接测试功能开发中</source>
+        <translation>连接测试功能开发中</translation>
+    </message>
+    <message>
+        <source>重置设置</source>
+        <translation>重置设置</translation>
+    </message>
+    <message>
+        <source>确定要重置所有AI设置吗？</source>
+        <translation>确定要重置所有AI设置吗？</translation>
+    </message>
+</context>
+<context>
+    <name>FileStatusModel</name>
+    <message>
+        <source>状态</source>
+        <translation>状态</translation>
+    </message>
+    <message>
+        <source>路径</source>
+        <translation>路径</translation>
+    </message>
+    <message>
+        <source>原路径</source>
+        <translation>原路径</translation>
+    </message>
+    <message>
+        <source>已修改</source>
+        <translation>已修改</translation>
+    </message>
+    <message>
+        <source>已暂存</source>
+        <translation>已暂存</translation>
+    </message>
+    <message>
+        <source>未跟踪</source>
+        <translation>未跟踪</translation>
+    </message>
+    <message>
+        <source>已删除</source>
+        <translation>已删除</translation>
+    </message>
+    <message>
+        <source>已重命名</source>
+        <translation>已重命名</translation>
+    </message>
+    <message>
+        <source>已忽略</source>
+        <translation>已忽略</translation>
+    </message>
+    <message>
+        <source>未知</source>
+        <translation>未知</translation>
+    </message>
+</context>
+<context>
+    <name>CommitHistoryModel</name>
+    <message>
+        <source>哈希值</source>
+        <translation>哈希值</translation>
+    </message>
+    <message>
+        <source>作者</source>
+        <translation>作者</translation>
+    </message>
+    <message>
+        <source>日期</source>
+        <translation>日期</translation>
+    </message>
+    <message>
+        <source>提交信息</source>
+        <translation>提交信息</translation>
+    </message>
+</context>
+<context>
+    <name>BranchModel</name>
+    <message>
+        <source>分支</source>
+        <translation>分支</translation>
+    </message>
+    <message>
+        <source> (当前)</source>
+        <translation> (当前)</translation>
+    </message>
+</context>
+<context>
+    <name>RemoteModel</name>
+    <message>
+        <source>远程仓库</source>
+        <translation>远程仓库</translation>
+    </message>
+</context>
+</TS>
