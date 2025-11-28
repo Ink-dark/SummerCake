@@ -1,0 +1,28 @@
+name: "🚀 推送通知到企业微信"
+
+on: [push] # 触发条件：当有代码推送时
+
+jobs:
+  notify-wechat:
+    name: 发送企业微信通知
+    runs-on: ubuntu-latest
+    steps:
+      # 第一步：打印个日志，方便调试
+      - name: 检查推送事件
+        run: echo "事件由 ${{ github.actor }} 触发，提交信息是 ${{ github.event.head_commit.message }}"
+
+      # 第二步：核心步骤 - 使用 curl 命令直接发送 Markdown 消息
+      - name: 发送 Markdown 消息到企业微信
+        run: |
+          curl -s -H "Content-Type: application/json" \
+          -X POST \
+          -d '{
+            "msgtype": "markdown",
+            "markdown": {
+              "content": "**SummerCake Git GUI 有新的代码提交！**\n\n---\n> **变动仓库：** <font color=\"info\">${{ github.repository }}</font>\n> **提交者：** <font color=\"comment\">${{ github.actor }}</font>\n> **变动分支：** `${{ github.ref_name }}`\n> **相关提交信息：** \n> ${{ github.event.head_commit.message }}\n\n[📱 点击这里可以查看提交详情](${{ github.event.head_commit.url }})",
+              "mentioned_list": [
+                "@all"
+              ]
+            }
+          }' \
+          "${{ secrets.WECHAT_QIYE_WEBHOOK_KEY }}"
