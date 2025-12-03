@@ -200,7 +200,7 @@ AI功能采用插件架构设计，便于扩展新的AI服务提供商。
 
 ## 许可证
 
-MIT License
+MIT License和（或）Apache 2.0 License
 
 ## 贡献
 
